@@ -15,6 +15,7 @@ int[] CreateArray(int size)
 
 Console.WriteLine("Введите число от 1 до 8");
 int number = Int32.Parse(Console.ReadLine());
+
 if (number > 8 || number < 1)
 {
     Console.Write("Число не входит в заданный диапозон чисел");
