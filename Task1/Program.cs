@@ -1,32 +1,5 @@
 ﻿// Задание 1. Задайте одномерный массив, заполненный случайными числами. Определите количество простых чисел в этом массиве.
 
-// // Создаем функцию выдачи случайных чисел
-// Random rnd = new Random();
-
-// // Вводим переменные и данные 
-// int size = 10;
-// int[] arr = new int [size];
-
-// // Создаем массив из случайных чисел
-// for (int i = 0; i < size; i++)
-// {
-//     arr[i] = rnd.Next(1, 100);
-//     // Console.Write(arr[i]+" ");
-//     bool simpleNumber = arr[i];
-//     int count = 0;
-//     if (simpleNumber > 1)
-//         {
-//             for (int j = 2; j <= simpleNumber; j++)
-//             {
-//                 if (simpleNumber % j == 0 && simpleNumber = j)
-//                 {
-//                     count++;
-//                 }
-//             }
-//         }
-//     Console.Write($"количество простых чисел в заданном массиве - {count}");
-// }
-
 using System.ComponentModel;
 
 int[] CreateArray(int size)
