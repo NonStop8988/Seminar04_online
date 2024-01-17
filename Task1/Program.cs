@@ -35,7 +35,7 @@ int GetPrimeQuantity(int[] array)
     foreach (int e in array)
     {
         bool result = IsSimple(e);
-        if (result)
+        if (result == true)
         {
             countPrimes++;
         }
